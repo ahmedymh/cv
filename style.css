@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@media only screen and (min-width: 414px) {
+}
+@media only screen and (min-width: 1024px){
+  
+}
+.item-a {
+  grid-area: header;
+  
+  }
+  .item-b {
+    grid-area: texte;
+  }
+  .item-c {
+    grid-area: skill;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1pr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header "
+      "texte"
+      "skill"
+      "footer";
+      justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .item-b li{
+    list-style-type: none;
+  text-align: left;
+  
+  }
+  .item-c li{
+    list-style-type: none;
+    font-size: 45px;
+    align-items: left;
+    text-align: left;
+  }
+  h2{
+    color: #7E5532;
+  }
+  h1{
+    color: #7E5532;
+  }
